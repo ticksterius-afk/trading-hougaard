@@ -1,0 +1,6 @@
+label,sessions,trades,total_points,points_per_trade,win_rate,profit_factor,max_dd_points
+5min_pessimistic,259,525,-843.5,-1.607,28.8,0.969,2834.2
+5min_bar_direction,259,485,1684.5,3.473,31.1,1.068,2586.2
+5min_optimistic,259,485,1684.5,3.473,31.1,1.068,2586.2
+1min_path,259,488,1516.5,3.108,30.9,1.061,2673.2
+1min_path_pess,259,496,977.0,1.97,30.4,1.038,2823.8

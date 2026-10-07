@@ -1,0 +1,15 @@
+label: DAX_ASRS_baseline
+instrument: DAX
+data_key: fut_eth
+strategy: asrs
+bar_minutes: 5
+signal_bar: 4
+entry_mode: stop
+buffer: 2.0
+stop_mode: opposite
+tp_mode: none
+trail_mode: none
+entry_window_minutes: 120
+allow_flip: true
+spread: 0.9
+intrabar: bar_direction

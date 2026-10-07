@@ -1,0 +1,87 @@
+{
+  "costs": [
+    {
+      "scenario": "zero cost",
+      "spread": 0.0,
+      "slip": 0.0,
+      "trades": 2707,
+      "points": 11754.0,
+      "per_trade": 4.342,
+      "pf": 1.179,
+      "sharpe": 1.21,
+      "t": 2.72,
+      "maxdd": 2881.0,
+      "money": 293850.0
+    },
+    {
+      "scenario": "Hougaard 0.9",
+      "spread": 0.9,
+      "slip": 0.0,
+      "trades": 2707,
+      "points": 9317.7,
+      "per_trade": 3.442,
+      "pf": 1.138,
+      "sharpe": 0.95,
+      "t": 2.15,
+      "maxdd": 3275.2,
+      "money": 232942.0
+    },
+    {
+      "scenario": "retail 1.2 + 0.5 slip",
+      "spread": 1.2,
+      "slip": 0.5,
+      "trades": 2707,
+      "points": 6104.6,
+      "per_trade": 2.255,
+      "pf": 1.087,
+      "sharpe": 0.62,
+      "t": 1.4,
+      "maxdd": 3807.6,
+      "money": 152615.0
+    },
+    {
+      "scenario": "stressed 3.0",
+      "spread": 3.0,
+      "slip": 0.5,
+      "trades": 2707,
+      "points": 1232.0,
+      "per_trade": 0.455,
+      "pf": 1.017,
+      "sharpe": 0.12,
+      "t": 0.28,
+      "maxdd": 4669.0,
+      "money": 30800.0
+    }
+  ],
+  "oos": [
+    {
+      "period": "in-sample-ish (pre 2023-05-08)",
+      "sessions": 433,
+      "trades": 830,
+      "points": 5605.0,
+      "per_session": 12.945,
+      "per_trade": 6.753,
+      "pf": 1.268,
+      "t": 2.27,
+      "win": 24.3
+    },
+    {
+      "period": "out-of-sample (post 2023-05-08)",
+      "sessions": 843,
+      "trades": 1881,
+      "points": 3621.1,
+      "per_session": 4.295,
+      "per_trade": 1.925,
+      "pf": 1.077,
+      "t": 1.01,
+      "win": 20.3
+    }
+  ],
+  "concentration": {
+    "top_1_days": 9.2,
+    "top_5_days": 33.6,
+    "top_10_days": 57.8,
+    "top_20_days": 99.3,
+    "top_50_days": 196.7
+  }
+}

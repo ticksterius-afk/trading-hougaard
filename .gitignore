@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+# derived market data (15.3 MB), rebuilt by scripts from Downloads\Market Data
+data/*.csv
+# generic safety
+*.pem
+*.key
+node_modules/
+.venv/
+Thumbs.db
+desktop.ini

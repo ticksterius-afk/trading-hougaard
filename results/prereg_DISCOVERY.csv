@@ -1,0 +1,34 @@
+dataset,family,hypothesis,diff_R,t_stat,n_in,n_out,mean_R,win_rate,money,avg_risk
+DISCOVERY,T1 inside bar,bar2 inside bar1 vs not,-0.0301,-0.259,450,2075,,,,
+DISCOVERY,T2 body shape,trend  body>=0.70,0.1831,1.871,597,1928,,,,
+DISCOVERY,T2 body shape,strong body 0.50-0.70,-0.2141,-2.319,574,1951,,,,
+DISCOVERY,T2 body shape,mid    body 0.25-0.50,0.0471,0.499,712,1813,,,,
+DISCOVERY,T2 body shape,doji   body<0.25,-0.0263,-0.249,642,1883,,,,
+DISCOVERY,T3 direction,bar1 up / bar2 up / LONG break,0.0646,0.473,374,902,,,,
+DISCOVERY,T3 direction,bar1 up / bar2 up / SHORT break,0.0103,0.067,252,997,,,,
+DISCOVERY,T3 direction,bar1 up / bar2 dn / LONG break,0.2298,1.397,248,1028,,,,
+DISCOVERY,T3 direction,bar1 up / bar2 dn / SHORT break,-0.1719,-1.405,380,869,,,,
+DISCOVERY,T3 direction,bar1 dn / bar2 up / LONG break,-0.1121,-0.855,357,919,,,,
+DISCOVERY,T3 direction,bar1 dn / bar2 up / SHORT break,0.1213,0.769,232,1017,,,,
+DISCOVERY,T3 direction,bar1 dn / bar2 dn / LONG break,-0.1499,-1.104,297,979,,,,
+DISCOVERY,T3 direction,bar1 dn / bar2 dn / SHORT break,0.0768,0.588,385,864,,,,
+DISCOVERY,T4 take profit,TP = 30% of bar1 range,-0.1017,,3458,2525,-0.0605,77.7,-122680.0,
+DISCOVERY,T4 take profit,TP = 50% of bar1 range,-0.0724,,3025,2525,-0.0311,69.1,-47187.0,
+DISCOVERY,T4 take profit,TP = 75% of bar1 range,-0.0474,,2763,2525,-0.0061,60.4,8681.0,
+DISCOVERY,T4 take profit,TP = 100% of bar1 range,-0.0364,,2647,2525,0.0048,53.5,43291.0,
+DISCOVERY,T4 take profit,TP = 150% of bar1 range,-0.0281,,2558,2525,0.0132,44.1,70691.0,
+DISCOVERY,T4 take profit,TP = 200% of bar1 range,-0.0191,,2535,2525,0.0222,38.9,70428.0,
+DISCOVERY,T4 take profit,TP = 300% of bar1 range,-0.0145,,2527,2525,0.0268,33.9,97928.0,
+DISCOVERY,T4 take profit,TP = 30% of bar2 range,-0.1148,,3637,2525,-0.0735,80.5,-144458.0,
+DISCOVERY,T4 take profit,TP = 50% of bar2 range,-0.1005,,3148,2525,-0.0592,72.2,-90906.0,
+DISCOVERY,T4 take profit,TP = 75% of bar2 range,-0.0671,,2851,2525,-0.0258,64.6,-13351.0,
+DISCOVERY,T4 take profit,TP = 100% of bar2 range,-0.043,,2710,2525,-0.0017,58.3,41676.0,
+DISCOVERY,T4 take profit,TP = 150% of bar2 range,-0.0365,,2588,2525,0.0048,48.0,46807.0,
+DISCOVERY,T4 take profit,TP = 200% of bar2 range,-0.038,,2548,2525,0.0033,41.6,49421.0,
+DISCOVERY,T4 take profit,TP = 300% of bar2 range,-0.0255,,2526,2525,0.0158,35.6,77087.0,
+DISCOVERY,T5 stop placement,opposite trigger (baseline),0.0,,2525,2525,0.0413,31.6,132627.0,28.4
+DISCOVERY,T5 stop placement,"bar2 extreme, no buffer",-0.0079,,2551,2525,0.0334,30.5,127732.0,27.3
+DISCOVERY,T5 stop placement,bar1 extreme,-0.0225,,2473,2525,0.0187,30.5,104127.0,31.8
+DISCOVERY,T5 stop placement,bar1 midpoint,-0.0185,,2511,2525,0.0228,19.4,40729.0,16.9
+DISCOVERY,T5 stop placement,bar2 midpoint,-0.0335,,3129,2525,0.0077,18.6,74877.0,13.8
+DISCOVERY,T5 stop placement,both bars combined,-0.02,,2291,2525,0.0213,35.7,139412.0,37.9

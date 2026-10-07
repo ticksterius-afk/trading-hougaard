@@ -1,0 +1,7 @@
+==============================================================================
+TIME-OF-DAY SCAN -- money by which bar is used, per market
+(each bar gets the same 90 minutes after it closes)
+==============================================================================
+  DAX  bar4=   152,564 (88th pct of 48) | hour1   127,614  hour2   -34,914  hour3  -172,954  hour4  -277,548
+  NQ   bar4=   203,173 (96th pct of 48) | hour1   124,628  hour2   -15,671  hour3    18,576  hour4    38,564
+  ES   bar4=    14,018 (90th pct of 48) | hour1    -9,317  hour2   -66,278  hour3   -46,640  hour4   -24,718
